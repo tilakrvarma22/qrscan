@@ -1,0 +1,33 @@
+<%- include("partials/header.ejs");-%>
+<style>
+    form
+    {
+        margin:1% 0px;
+    }
+    form button
+    {
+        margin-top: 1%;
+    }
+</style>
+<h1>Have a Question? Contact Us</h1>
+<p>Have a question or comment about Daily Journal? We'd love to hear from you! Here's how to get in touch:</p>
+<p>You can reach us at support@dailyjournal.com with any questions or concerns you may have. We'll do our best to get back to you as soon as possible.</p>
+
+<p>Thanks for your interest in Daily Journal, and we look forward to hearing from you!</p>
+<form action="/contact" method="post">
+    <div class="mb-3">
+        <label for="yourname" class="form-label">Your Name</label>
+        <input type="text" class="form-control" id="yourname" placeholder="Your Name">
+      </div>
+      <div class="mb-3">
+        <label for="youremail" class="form-label">Your Email</label>
+        <input type="email" class="form-control" id="youremail" placeholder="Your Email">
+      </div>
+      <div class="mb-3">
+        <label for="comment" class="form-label">Your messages</label>
+        <textarea class="form-control" id="comment" rows="3">Your Message for us</textarea>
+      </div>
+      <button type="submit" class="btn btn-primary ">Send Message</button>
+
+</form>
+<%- include("partials/footer.ejs");-%>

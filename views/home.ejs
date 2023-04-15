@@ -1,0 +1,18 @@
+
+<%- include("partials/header.ejs");-%>
+
+<h1>Welcome to Daily Journal!</h1>
+<p> Are you looking for a simple and effective way to keep a daily journal? Look no further! Our website is designed to help you maintain your journal every day.
+</p>
+<p>We understand that journaling can be a powerful tool for personal growth, self-reflection, and mindfulness. It can help you identify patterns in your thoughts and behaviors, clarify your goals and values, and reduce stress and anxiety. However, it can be challenging to make journaling a consistent habit, especially if you're busy or easily distracted.
+</p>
+<p>That's where Daily Journal comes in. Our platform is user-friendly, customizable, and designed to fit seamlessly into your daily routine. You can create and save entries easily, edit them as needed, and browse through your past entries to see your progress over time. Whether you prefer to write long-form essays or short bullet points, our platform is flexible enough to accommodate your writing style.
+</p>
+
+<% string.forEach(function(element){ %>
+    <h1><%=element.title%></h1>
+    <p><%=element.post.substring(0,100)+"..."%><a href="/post/<%=element.title%>">Read More</a></p>
+<%});%> 
+
+<%- include("partials/footer.ejs");-%>
+
