@@ -3,7 +3,7 @@
 ## Overview
 This project focuses on classifying SMS messages as spam or non-spam (ham) using natural language processing (NLP) techniques. The goal is to develop machine learning models based on decision tree and random forest algorithms to automatically identify spam content in SMS messages.
 
-Project link: https://colab.research.google.com/github/tilakrvarma22/installer/blob/main/Spam_SMS_Classification.ipynb
+Project link: [https://colab.research.google.com/github/tilakrvarma22/installer/blob/main/Spam_SMS_Classification.ipynb](https://colab.research.google.com/drive/1BfWT9b20XdI0Mpvz3Cib9KM8WQiQiveo)
 
 ## Table of Contents
 * Getting Started
